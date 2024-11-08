@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>odin-landing-page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="flex-container">
@@ -17,14 +23,26 @@
             <li>header link three</li>
           </ul>
         </nav>
-        <div class="header-container">
-          <h1>This website is awesome</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero ab
-            maxime voluptates exercitationem quis dicta,.
-          </p>
-          <button>Sign Up</button>
-          <img />
+        <div class="hero-container">
+          <div class="hero-container-left">
+            <h1 class="hero-header">This website is awesome</h1>
+            <p class="hero-secondary-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero
+              ab maxime voluptates exercitationem quis dicta,.
+            </p>
+            <button>Sign Up</button>
+          </div>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/20147091/pexels-photo-20147091/free-photo-of-man-playing-acoustic-guitar-under-moon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              width="600px"
+              height="370px"
+              alt="man in shadow playing guitar"
+            />
+            <figcaption class="hero-caption">
+              <p>Photo by <cite>Jeremy Bishop</cite></p>
+            </figcaption>
+          </figure>
         </div>
       </header>
       <main>
@@ -65,6 +83,7 @@
           <button>Sign Up</button>
         </div>
       </main>
+
       <footer>Copyright bla bla 2024 The Odin Project</footer>
     </div>
   </body>

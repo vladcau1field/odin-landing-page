@@ -7,6 +7,19 @@ html {
   font-family: Roboto;
 }
 
+a:link {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e5e7eb;
+}
+
+a:hover {
+  color: #555555;
+}
+
 .carousel,
 .blockquote,
 .cta-container {
@@ -49,6 +62,7 @@ footer {
 .hero-header {
   font-size: 48px;
   color: #f9faf8;
+  margin-right: 30px;
 }
 
 nav {
@@ -148,6 +162,7 @@ button {
   gap: 85px;
   border-radius: 15px;
   min-width: 900px;
+  box-shadow: 0px 0px 50px #0000008e;
 }
 
 .cta {
